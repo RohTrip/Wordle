@@ -1,0 +1,65 @@
+#grid{
+    padding: 10px 50vh;
+    width: 600px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#grid .gray-first-row, .gray-second-row, .gray-third-row, .gray-fourth-row, .gray-fifth-row, .gray-sixth-row{
+
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px 10px;
+    font-family: sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.button{
+    width: 100px;
+    margin: 2% 50vh;
+    color: black;
+    background-color: white;
+}
+
+#green{
+    background-color: rgb(0, 255, 0) !important;
+}
+#yellow{
+    background-color: rgb(201, 201, 0) !important;
+}
+
+@media only screen and (max-width: 1020px){
+    #grid{
+        padding: 5vh 50vh;
+        width: 500px;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #grid .gray-first-row, .gray-second-row, .gray-third-row, .gray-fourth-row, .gray-fifth-row, .gray-sixth-row {
+    
+        width: 50px;
+        height: 50px;
+        background-color: gray;
+        margin: 10px 10px;
+        font-size: 40px;
+    }
+    .button{
+        width: 100px;
+        margin: 2% 50vh;
+    }
+    
+}
